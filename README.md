@@ -3,13 +3,14 @@
 Install dependencies
 
 ```sh
-pipenv install
+pipenv install # or
+pip install -r requirments.txt
 ```
 
 Start the project
 
-```
-pipenv shell
+```sh
+pipenv shell # if using pipenv
 python app.py
 ```
 
